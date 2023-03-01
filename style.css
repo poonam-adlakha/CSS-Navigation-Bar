@@ -1,0 +1,35 @@
+* {
+	margin: 0;
+	padding: 0;
+  box-sizing: border-box;
+	list-style-type: none;
+}
+
+body {
+	background: black;
+}
+
+ul {
+	display: flex;
+  justify-content: space-between;
+	width: 100%;
+	height: 100vh;
+	margin: auto;
+	max-width: 1000px;
+	text-align: center;
+}
+
+li {
+  padding: 1rem 2rem;
+	text-transform: uppercase;
+  color: #F5F3E7;
+	min-width: 100px;
+	margin: auto;
+  cursor: pointer;
+}
+
+li:hover {
+  border-bottom: 2px solid green;
+  transform: translateY(-10px);
+}
+
